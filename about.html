@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About Us | Capital Links Medical Billing &amp; Transcription</title>
+<meta name="description" content="Learn about Capital Links Medical Billing & Transcription, a Pakistan-based company established in 2024 and preparing to support healthcare documentation and billing needs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ffffff;--surface:#fff;--ink:#0F172A;--muted:#475569;--brand:#0284C7;--on-brand:#fff;--line:#E2E8F0;--band:#1E3A8A;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(84px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Public Sans",system-ui,sans-serif}
+h1,h2,h3,h4{font-family:Fraunces,Georgia,serif;line-height:1.2;margin:0 0 .5em;letter-spacing:-.01em}
+h1{font-size:clamp(2.2rem,5vw,3.4rem);color:#1E3A8A}h2{font-size:clamp(1.6rem,3vw,2.2rem);color:#1E3A8A;margin-top:0;font-weight:700}h3{font-size:1.3rem;color:#0F172A}
+p{margin:0 0 1.2em;color:#334155;line-height:1.68}a{color:var(--brand)}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+
+.btn{display:inline-block;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;border:2px solid var(--brand);background:var(--brand);color:var(--on-brand);cursor:pointer;font:inherit}
+header{position:sticky;top:0;z-index:100;background:var(--surface);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:76px}
+.logo{display:flex;align-items:center}.logo img{height:58px;width:auto;display:block;border-radius:6px}
+
+.topbar{background:#0284C7;color:#ffffff;font-size:.92rem;font-weight:500}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;min-height:42px;gap:16px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
+.topbar a{color:inherit;text-decoration:none}.topbar .ct{display:flex;gap:22px;flex-wrap:wrap}
+.soc{display:flex;gap:10px}.soc a{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font:700 .8rem Public Sans,sans-serif;background:rgba(255,255,255,0.2);color:#fff;text-decoration:none}
+
+.links{display:flex;gap:22px;align-items:center}
+.links a{color:var(--ink);text-decoration:none;font-size:.95rem}
+.links a.btn{color:var(--on-brand);padding:9px 18px;border-radius:8px;background:#1E3A8A;border-color:#1E3A8A}
+.links>a:not(.btn),.ddb{color:#1E3A8A;font-weight:600}
+.dd{position:relative}.ddb{background:none;border:0;font:inherit;font-size:.95rem;font-weight:600;color:var(--ink);cursor:pointer;padding:6px 0}
+.ddb::after{content:"";display:inline-block;width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px);margin-left:8px}
+
+.sub{display:none;position:absolute;top:100%;left:-14px;min-width:240px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px;box-shadow:0 14px 30px -12px rgba(15,23,42,0.15);z-index:50}
+.dd:hover .sub,.dd:focus-within .sub,.dd.open .sub{display:block}
+.sub.mega-sub{min-width:560px;grid-template-columns:1fr 1fr;gap:8px;padding:12px;border-radius:14px;left:-20px}
+.dd:hover .sub.mega-sub,.dd:focus-within .sub.mega-sub,.dd.open .sub.mega-sub{display:grid}
+
+.sub.mega-sub-services{min-width:760px;grid-template-columns:1fr 240px;gap:20px;padding:18px;border-radius:18px;left:-260px}
+.dd:hover .sub.mega-sub-services,.dd:focus-within .sub.mega-sub-services,.dd.open .sub.mega-sub-services{display:grid}
+.services-grid-inner{display:grid;grid-template-columns:1fr 1fr;gap:8px 12px}
+
+.sub-item{display:flex;flex-direction:column;padding:12px;border-radius:8px;text-decoration:none!important;transition:background 0.2s}
+.sub-item:hover{background:#F0F9FF!important}
+.sub-title{font-weight:700;font-size:0.95rem;color:#1E3A8A;line-height:1.3;display:block}
+.sub-desc{font-size:0.82rem;color:var(--muted);margin-top:3px;line-height:1.35;display:block;font-weight:400}
+
+#mt{display:none;background:none;border:1px solid var(--line);color:var(--ink);border-radius:6px;padding:8px 12px;font:inherit}
+@media(max-width:820px){
+  #mt{display:block}
+  .links{display:none;position:absolute;top:76px;left:0;right:0;flex-direction:column;align-items:flex-start;background:var(--surface);padding:16px 20px;border-bottom:1px solid var(--line)}
+  .links.open{display:flex}
+  .sub,.sub.mega-sub,.sub.mega-sub-services{position:static;box-shadow:none;border:0;padding:0 0 0 12px;min-width:0;grid-template-columns:1fr!important}
+  .services-grid-inner{grid-template-columns:1fr}
+  .dd:hover .sub,.dd:hover .sub.mega-sub,.dd:hover .sub.mega-sub-services{display:none}
+  .dd.open .sub,.dd.open .sub.mega-sub,.dd.open .sub.mega-sub-services{display:grid}
+  .dd{width:100%}
+}
+
+.breadcrumb{padding:20px 0 12px;font-size:0.9rem;color:#64748B}
+.breadcrumb a{color:#64748B;text-decoration:none}.breadcrumb span{color:#1E293B;font-weight:500}
+
+.hero-page{background:#F0F7FD;padding:8px 0 52px;border-bottom:1px solid #E2E8F0}
+.eyebrow{color:#0284C7;font-weight:700;font-size:0.82rem;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:14px;display:block}
+
+.about-nav-active{border-bottom:2px solid #0284C7;padding-bottom:4px;color:#0284C7!important;font-weight:700!important;}
+
+.pill{display:inline-block;background:#ffffff;border:1px solid #CBD5E1;border-radius:24px;padding:8px 18px;font-size:0.92rem;color:#1E3A8A;font-weight:600;margin:0 8px 10px 0;box-shadow:0 2px 4px rgba(0,0,0,0.02);}
+
+.cert-card{background:#ffffff;border:1px solid #E2E8F0;border-top:5px solid #1E3A8A;border-radius:14px;padding:24px;display:flex;flex-direction:column;justify-content:space-between;transition:transform 0.2s,box-shadow 0.2s;}
+.cert-card:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(15,23,42,0.08);}
+
+.floating-help-btn{position:fixed;bottom:24px;right:24px;width:54px;height:54px;border-radius:50%;background:#0284C7;color:#ffffff;display:grid;place-items:center;box-shadow:0 10px 25px rgba(2,132,199,0.4);z-index:99;text-decoration:none;transition:transform 0.2s,background 0.2s}
+.floating-help-btn:hover{transform:scale(1.08);background:#0369A1}
+
+/* Footer Social Media Icons */
+.footer-soc-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-soc-link svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  transition: transform 0.25s ease;
+  display: block;
+}
+.footer-soc-link:hover {
+  transform: translateY(-2px);
+  color: #ffffff;
+}
+.footer-soc-link:hover svg {
+  transform: scale(1.1);
+}
+.footer-soc-fb:hover {
+  background: #1877F2;
+  border-color: #1877F2;
+  box-shadow: 0 4px 14px rgba(24, 119, 242, 0.45);
+}
+.footer-soc-ig:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  border-color: #d6249f;
+  box-shadow: 0 4px 14px rgba(214, 36, 159, 0.45);
+}
+.footer-soc-yt:hover {
+  background: #FF0000;
+  border-color: #FF0000;
+  box-shadow: 0 4px 14px rgba(255, 0, 0, 0.45);
+}
+.footer-soc-in:hover {
+  background: #0A66C2;
+  border-color: #0A66C2;
+  box-shadow: 0 4px 14px rgba(10, 102, 194, 0.45);
+}
+
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><div class="ct"><a href="mailto:capitallinkspakistan@gmail.com">&#9993; capitallinkspakistan@gmail.com</a><a href="tel:+923158053198">&#9742; +92 315 8053198</a></div></div></div>
+
+<header><div class="wrap bar">
+<a class="logo" href="index.html"><img src="images/capital-links-logo.png" alt="Capital Links - Medical Billing &amp; Transcription"></a>
+<button id="mt" aria-expanded="false" aria-controls="lk">Menu</button>
+<nav class="links" id="lk" aria-label="Main">
+<a href="about.html" class="about-nav-active">About Us</a>
+<div class="dd"><button class="ddb" aria-expanded="false">Education</button>
+  <div class="sub mega-sub">
+    <a href="education.html" class="sub-item">
+      <span class="sub-title">AAPC Certification in Pakistan</span>
+      <span class="sub-desc">Capital Links is AAPC's Strategic Partner in Pakistan</span>
+    </a>
+    <a href="cpc.html" class="sub-item">
+      <span class="sub-title">CPC&reg; &mdash; Certified Professional Coder</span>
+      <span class="sub-desc">AAPC's instructor-led online course</span>
+    </a>
+    <a href="cpb.html" class="sub-item">
+      <span class="sub-title">CPB&reg; &mdash; Certified Professional Biller</span>
+      <span class="sub-desc">AAPC's instructor-led online course</span>
+    </a>
+    <a href="cpc-cpb-dual.html" class="sub-item">
+      <span class="sub-title">CPC&reg; + CPB&reg; Dual Certifications</span>
+      <span class="sub-desc">AAPC's instructor-led online course</span>
+    </a>
+  </div>
+</div>
+
+<div class="dd"><button class="ddb" aria-expanded="false">Services</button>
+  <div class="sub mega-sub-services">
+    <div class="services-grid-inner">
+      <a href="medical-billing.html" class="sub-item">
+        <span class="sub-title">Medical billing</span>
+        <span class="sub-desc">Claims, payments and AR follow-up</span>
+      </a>
+      <a href="medical-coding.html" class="sub-item">
+        <span class="sub-title">Medical coding</span>
+        <span class="sub-desc">ICD-10-CM, CPT and HCPCS by certified coders</span>
+      </a>
+      <a href="medical-transcription.html" class="sub-item">
+        <span class="sub-title">Medical transcription</span>
+        <span class="sub-desc">Accurate notes, fast turnaround</span>
+      </a>
+      <a href="ai-clinical-documentation.html" class="sub-item">
+        <span class="sub-title">AI clinical documentation</span>
+        <span class="sub-desc">AI drafts, human-reviewed</span>
+      </a>
+      <a href="revenue-cycle-management.html" class="sub-item">
+        <span class="sub-title">Revenue cycle management</span>
+        <span class="sub-desc">The whole cycle, one accountable team</span>
+      </a>
+      <a href="denial-management.html" class="sub-item">
+        <span class="sub-title">Denial management</span>
+        <span class="sub-desc">Recover denied claims and prevent the next</span>
+      </a>
+    </div>
+    
+    <div style="background: #12213A; border-radius: 14px; padding: 22px; color: #ffffff; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <h4 style="font-size: 1.25rem; font-family: Fraunces, serif; margin: 0 0 8px; color: #ffffff;">Free billing audit</h4>
+        <p style="font-size: 0.84rem; color: rgba(255,255,255,0.8); margin: 0 0 16px; line-height: 1.45;">See where your practice is losing revenue. No cost, no commitment.</p>
+      </div>
+      <a href="free-billing-audit.html" style="color: #38BDF8; font-weight: 700; text-decoration: none; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 6px;">Learn more &rarr;</a>
+    </div>
+  </div>
+</div>
+
+<div class="dd"><button class="ddb" aria-expanded="false">Resources</button>
+  <div class="sub mega-sub">
+    <a href="updates.html" class="sub-item">
+      <span class="sub-title">Updates</span>
+      <span class="sub-desc">News, batch dates and announcements</span>
+    </a>
+    <a href="blog.html" class="sub-item">
+      <span class="sub-title">Blog</span>
+      <span class="sub-desc">Billing and coding insights</span>
+    </a>
+    <a href="guides-downloads.html" class="sub-item">
+      <span class="sub-title">Guides &amp; downloads</span>
+      <span class="sub-desc">Checklists for practices and students</span>
+    </a>
+    <a href="faq.html" class="sub-item">
+      <span class="sub-title">FAQ</span>
+      <span class="sub-desc">Answers to common questions</span>
+    </a>
+  </div>
+</div>
+
+<a href="careers.html">Careers</a>
+<a href="contact.html">Contact</a>
+<a class="btn" href="free-billing-audit.html">Free billing audit</a>
+</nav></div></header>
+
+<!-- HERO SECTION -->
+<div class="hero-page">
+  <div class="wrap">
+    <div class="breadcrumb" style="padding-left:0; background:transparent;">
+      <a href="index.html">Home</a> &rsaquo; <span>About Us</span>
+    </div>
+    <span class="eyebrow">ABOUT US</span>
+    <h1 style="color: #1E3A8A; font-family: Fraunces, serif; font-size: clamp(2.3rem, 4.4vw, 3.4rem); margin: 6px 0 12px; font-weight: 700;">About Capital Links Medical Billing &amp; Transcription</h1>
+    <p style="color: #475569; font-size: 1.25rem; margin: 0; max-width: 760px; line-height: 1.5;">A Pakistan-based team preparing to support healthcare providers with medical billing, coding, and transcription.</p>
+  </div>
+</div>
+
+<main>
+  <!-- SECTION 1: OUR STORY -->
+  <section style="padding: 72px 0; background: #ffffff;">
+    <div class="wrap" style="display: grid; grid-template-columns: 1fr 440px; gap: 52px; align-items: start;">
+      <div>
+        <h2 style="color: #1E3A8A; font-family: Fraunces, serif; font-size: clamp(2rem, 3.5vw, 2.5rem); margin-bottom: 24px;">Our Story</h2>
+        <p style="font-size: 1.05rem; line-height: 1.7; color: #334155; margin-bottom: 20px;">
+<p>
+  Capital Links Medical Billing &amp; Transcription (SMC) Pvt. Ltd. was established in Pakistan in 2024. Our aim is to help healthcare teams manage documentation and billing tasks so they can spend more time focused on patient care. We are building our capabilities in medical transcription, clinical documentation, medical coding, medical billing, and revenue cycle management.
+</p>        </p>
+        <p style="font-size: 1.05rem; line-height: 1.7; color: #334155; margin-bottom: 0;">
+          Our founder, Zeeshan Zahid Gill, brought experience in clinical laboratory work, medical transcription, quality assurance, and CPC and CPB training to the company. That understanding of both healthcare and documentation continues to shape how we work: We listen to each client's requirements, build processes around their systems, and give every report and claim the attention it deserves.
+        </p>
+      </div>
+
+      <div style="background: #F0F7FD; border-radius: 20px; padding: 16px; border: 1px solid #E2E8F0;">
+        <img src="./images/WhatsApp Image 2026-07-14 at 5.55.58 AM (1).jpeg" alt="Riaz Naveed, Founder &amp; CEO" style="width: 100%; height: 380px; object-fit: cover; border-radius: 14px; display: block;">
+        <div style="font-size: 0.95rem; color: #64748B; margin-top: 14px; font-weight: 500; text-align: left; padding-left: 4px;">
+          Zeeshan Zahid Gill, Founder &amp; CEO
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: CLINICAL DOCUMENTATION -->
+  <section style="padding: 72px 0; background: #F0F7FD; border-top: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0;">
+    <div class="wrap" style="display: grid; grid-template-columns: 1fr 420px; gap: 52px; align-items: start;">
+      <div>
+        <h2 style="color: #1E3A8A; font-family: Fraunces, serif; font-size: clamp(2rem, 3.5vw, 2.5rem); margin-bottom: 24px;">Clinical Documentation Built Around Your Workflow</h2>
+        <p style="font-size: 1.05rem; line-height: 1.7; color: #334155; margin-bottom: 20px;">
+          Capital Links has supported healthcare clients in the United States, Canada, the United Kingdom, Australia, and Saudi Arabia. Our transcriptionists, editors and quality assurance professionals work across specialties including Family Medicine, Cardiology, Psychiatry, Orthopedics, Pathology, and Radiology. They are experienced with different accents, dictation styles, templates, and turnaround time (TAT) requirements.
+        </p>
+        <p style="font-size: 1.05rem; line-height: 1.7; color: #334155; margin-bottom: 0;">
+          We can work directly within a client's EMR or EHR system or provide access to a subscription-based dictation and documentation platform. As clinical documentation technology evolves, our team also reviews and edits voice recognition and AI-generated drafts, combining the speed of new tools with professional oversight.
+        </p>
+      </div>
+
+      <div>
+        <div style="margin-bottom: 32px;">
+          <span style="color: #0284C7; font-weight: 700; font-size: 0.8rem; letter-spacing: 1.5px; text-transform: uppercase; display: block; margin-bottom: 14px;">COUNTRIES</span>
+          <div>
+            <span class="pill">United States</span>
+            <span class="pill">Canada</span>
+            <span class="pill">United Kingdom</span>
+            <span class="pill">Australia</span>
+            <span class="pill">Saudi Arabia</span>
+          </div>
+        </div>
+
+        <div>
+          <span style="color: #0284C7; font-weight: 700; font-size: 0.8rem; letter-spacing: 1.5px; text-transform: uppercase; display: block; margin-bottom: 14px;">SPECIALTIES</span>
+          <div>
+            <span class="pill">Family Medicine</span>
+            <span class="pill">Cardiology</span>
+            <span class="pill">Psychiatry</span>
+            <span class="pill">Orthopedics</span>
+            <span class="pill">Pathology</span>
+            <span class="pill">Radiology</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: MEDICAL CODING & BILLING -->
+  <section style="padding: 72px 0; background: #ffffff;">
+    <div class="wrap" style="display: grid; grid-template-columns: 1fr 440px; gap: 52px; align-items: start;">
+      <div>
+        <h2 style="color: #1E3A8A; font-family: Fraunces, serif; font-size: clamp(2rem, 3.5vw, 2.5rem); margin-bottom: 24px;">Medical Coding, Billing, and Revenue Cycle Management</h2>
+        <p style="font-size: 1.05rem; line-height: 1.7; color: #334155; margin-bottom: 20px;">
+          Capital Links's coding and billing services help healthcare organizations manage the financial journey from patient registration through final payment. Our team of AAPC certified coders and billers supports insurance verification and eligibility, prior authorizations, provider credentialing, medical coding, charge entry, claims preparation and submission, denial management, payment posting, accounts receivable follow-up, and billing audits and reporting.
+        </p>
+        <p style="font-size: 1.05rem; line-height: 1.7; color: #334155; margin-bottom: 0;">
+          Accurate documentation and coding are essential to a well-run revenue cycle. We work to identify issues early, follow up on outstanding claims, and give clients a clearer view of their billing operations. Our goal is to help practices reduce avoidable delays and protect the revenue they have earned while their teams remain focused on patient care.
+        </p>
+      </div>
+
+      <div style="background: #F8FAFC; border-radius: 20px; padding: 28px; border: 1px solid #E2E8F0;">
+        <div style="display: grid; grid-template-columns: 1fr; gap: 14px;">
+          <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; color: #1E293B; font-weight: 500;">
+            <span style="color: #0284C7; font-weight: 700;">✓</span> Insurance verification and eligibility
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; color: #1E293B; font-weight: 500;">
+            <span style="color: #0284C7; font-weight: 700;">✓</span> Prior authorizations
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; color: #1E293B; font-weight: 500;">
+            <span style="color: #0284C7; font-weight: 700;">✓</span> Provider credentialing
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; color: #1E293B; font-weight: 500;">
+            <span style="color: #0284C7; font-weight: 700;">✓</span> Medical coding
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; color: #1E293B; font-weight: 500;">
+            <span style="color: #0284C7; font-weight: 700;">✓</span> Charge entry
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; color: #1E293B; font-weight: 500;">
+            <span style="color: #0284C7; font-weight: 700;">✓</span> Claims preparation and submission
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; color: #1E293B; font-weight: 500;">
+            <span style="color: #0284C7; font-weight: 700;">✓</span> Denial management
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; color: #1E293B; font-weight: 500;">
+            <span style="color: #0284C7; font-weight: 700;">✓</span> Payment posting
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; color: #1E293B; font-weight: 500;">
+            <span style="color: #0284C7; font-weight: 700;">✓</span> Accounts receivable follow-up
+          </div>
+          <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.95rem; color: #1E293B; font-weight: 500;">
+            <span style="color: #0284C7; font-weight: 700;">✓</span> Billing audits and reporting
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: INVESTING IN PAKISTAN WORKFORCE -->
+  <section style="padding: 72px 0; background: #1E3A8A; color: #ffffff;">
+    <div class="wrap" style="display: grid; grid-template-columns: 1fr 380px; gap: 52px; align-items: center;">
+      <div>
+        <h2 style="color: #ffffff; font-family: Fraunces, serif; font-size: clamp(2rem, 3.5vw, 2.6rem); margin-bottom: 24px;">Investing in Pakistan's Healthcare Workforce</h2>
+        <p style="font-size: 1.05rem; line-height: 1.7; color: rgba(255,255,255,0.9); margin-bottom: 20px;">
+          Our commitment extends beyond client services. Through a strategic partnership with the American Academy of Professional Coders (AAPC), Capital Links is supporting professional training opportunities in Pakistan for the Certified Professional Coder (CPC&reg;) and Certified Professional Biller (CPB&reg;) credentials.
+        </p>
+        <p style="font-size: 1.05rem; line-height: 1.7; color: rgba(255,255,255,0.9); margin-bottom: 0;">
+          Capital Links is helping students access these programs by coordinating enrollment, training schedules, payments, and required learning resources with AAPC. This initiative reflects our long-term aim to develop a skilled, qualified workforce in Pakistan for the global business of healthcare.
+        </p>
+      </div>
+
+      <div>
+        <div style="background: #ffffff; border-radius: 16px; padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+          <img src="images/capital-links-logo.png" alt="Capital Links" style="height: 42px; width: auto;">
+          <div style="border-left: 2px solid #E2E8F0; height: 36px;"></div>
+          <div style="display: flex; align-items: center; gap: 8px; color: #1E3A8A; font-weight: 700; font-size: 1.1rem; font-family: Public Sans, sans-serif;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2.2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            AAPC
+          </div>
+        </div>
+
+        <a href="education.html" style="background: #38BDF8; color: #0F172A; font-weight: 700; padding: 14px 24px; border-radius: 10px; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 20px; font-size: 1.02rem; transition: background 0.2s;">
+          View CPC&reg; &amp; CPB&reg; Courses &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: QUALITY FIRST & MISSION & STATS (From New Screenshot 1) -->
+  <section style="padding: 72px 0; background: #ffffff;">
+    <div class="wrap">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 52px; align-items: start; margin-bottom: 60px;">
+        <div>
+          <h2 style="color: #1E3A8A; font-family: Fraunces, serif; font-size: clamp(2.2rem, 3.8vw, 2.8rem); margin-bottom: 20px;">Quality First</h2>
+          <p style="font-size: 1.05rem; line-height: 1.7; color: #334155; margin-bottom: 32px;">
+            We believe in quality rather than quantity: the quality of the work we produce and the quality of service we provide. Our team can manage any type and volume of work within the agreed timeframe without compromising on quality.
+          </p>
+
+          <div style="background: #1E3A8A; color: #ffffff; border-radius: 20px; padding: 36px 32px; box-shadow: 0 14px 30px rgba(30,58,138,0.15);">
+            <div style="display: flex; align-items: center; gap: 12px; font-family: Fraunces, serif; font-size: 1.6rem; font-weight: 700; margin-bottom: 14px; color: #ffffff;">
+              <span style="font-size: 1.8rem;">🎯</span> Our Mission
+            </div>
+            <p style="color: rgba(255,255,255,0.92); font-size: 1.08rem; line-height: 1.65; margin: 0;">
+              To provide top-quality services to our clients' satisfaction, and to serve the community by creating more jobs.
+            </p>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          <div style="background: #ffffff; border: 1px solid #E2E8F0; border-radius: 18px; padding: 24px 28px; box-shadow: 0 4px 12px rgba(15,23,42,0.03);">
+            <h3 style="color: #1E3A8A; font-family: Fraunces, serif; font-size: 1.25rem; font-weight: 700; margin: 0 0 8px;">Accuracy before speed</h3>
+            <p style="color: #475569; font-size: 0.95rem; margin: 0; line-height: 1.55;">
+              A claim that's right the first time is faster than one that comes back. We check before we send.
+            </p>
+          </div>
+
+          <div style="background: #ffffff; border: 1px solid #E2E8F0; border-radius: 18px; padding: 24px 28px; box-shadow: 0 4px 12px rgba(15,23,42,0.03);">
+            <h3 style="color: #1E3A8A; font-family: Fraunces, serif; font-size: 1.25rem; font-weight: 700; margin: 0 0 8px;">Plain reporting</h3>
+            <p style="color: #475569; font-size: 0.95rem; margin: 0; line-height: 1.55;">
+              Every client gets numbers they can read and a person who explains them.
+            </p>
+          </div>
+
+          <div style="background: #ffffff; border: 1px solid #E2E8F0; border-radius: 18px; padding: 24px 28px; box-shadow: 0 4px 12px rgba(15,23,42,0.03);">
+            <h3 style="color: #1E3A8A; font-family: Fraunces, serif; font-size: 1.25rem; font-weight: 700; margin: 0 0 8px;">Privacy by design</h3>
+            <p style="color: #475569; font-size: 0.95rem; margin: 0; line-height: 1.55;">
+              Patient information stays in HIPAA-compliant systems. Our website and chatbot never ask for it.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STATS ROW -->
+      <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 24px; padding-top: 40px; border-top: 1px solid #E2E8F0; text-align: left;">
+        <div>
+          <div style="font-size: 0.9rem; color: #64748B; font-weight: 600; margin-bottom: 6px;">Happy Clients</div>
+          <div style="font-family: Fraunces, serif; font-size: 2.5rem; font-weight: 800; color: #1E3A8A;">55+</div>
+        </div>
+        <div>
+          <div style="font-size: 0.9rem; color: #64748B; font-weight: 600; margin-bottom: 6px;">Projects Completed</div>
+          <div style="font-family: Fraunces, serif; font-size: 2.5rem; font-weight: 800; color: #1E3A8A;">470+</div>
+        </div>
+        <div>
+          <div style="font-size: 0.9rem; color: #64748B; font-weight: 600; margin-bottom: 6px;">Expert People</div>
+          <div style="font-family: Fraunces, serif; font-size: 2.5rem; font-weight: 800; color: #1E3A8A;">100+</div>
+        </div>
+        <div>
+          <div style="font-size: 0.9rem; color: #64748B; font-weight: 600; margin-bottom: 6px;">Portfolios</div>
+          <div style="font-family: Fraunces, serif; font-size: 2.5rem; font-weight: 800; color: #1E3A8A;">70+</div>
+        </div>
+        <div>
+          <div style="font-size: 0.9rem; color: #64748B; font-weight: 600; margin-bottom: 6px;">Years in Healthcare</div>
+          <div style="font-family: Fraunces, serif; font-size: 2.5rem; font-weight: 800; color: #1E3A8A;">25+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: REGISTERED, CERTIFIED & COMPLIANT (From New Screenshot 2 & 3) -->
+  <section style="padding: 72px 0; background: #F0F7FD; border-top: 1px solid #E2E8F0;">
+    <div class="wrap">
+      <div style="max-width: 720px; margin-bottom: 48px;">
+        <h2 style="color: #1E3A8A; font-family: Fraunces, serif; font-size: clamp(2rem, 3.5vw, 2.6rem); margin-bottom: 12px;">Registered, Certified &amp; Compliant</h2>
+        <p style="font-size: 1.05rem; color: #475569; margin: 0;">
+          Capital Links Medical Billing &amp; Transcription Pvt. Ltd. is a registered and compliant company trusted by healthcare providers worldwide since 2024.
+        </p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px;">
+        <!-- CERT 1: PSEB -->
+        <div class="cert-card">
+          <div>
+            <div style="height: 140px; background: #ffffff; border-radius: 10px; padding: 12px; margin-bottom: 20px; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+              <img src="images/cert-pseb.jpg" alt="PSEB Certificate" style="max-height: 100%; max-width: 100%; object-fit: contain;">
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+              <h3 style="font-size: 1.3rem; margin: 0; color: #1E3A8A; font-family: Fraunces, serif; font-weight: 700;">PSEB</h3>
+            </div>
+            <p style="font-size: 0.92rem; color: #64748B; margin-bottom: 20px; line-height: 1.45;">
+              Registered with Pakistan Software Export Board
+            </p>
+
+            <div style="border-top: 1px solid #E2E8F0; padding-top: 16px; font-size: 0.86rem; color: #475569;">
+              <div style="font-weight: 700; color: #1E3A8A; margin-bottom: 4px;">Registration / certificate no.</div>
+              <div style="color: #334155; margin-bottom: 2px;">Z-25-8395/23</div>
+              <div style="color: #64748B;">Valid Feb 2026 – Jan 2027</div>
+            </div>
+          </div>
+          
+          <div style="margin-top: 24px;">
+            <a href="images/cert-pseb.jpg" target="_blank" style="color: #1E3A8A; font-weight: 700; text-decoration: none; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 6px;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6-6M9 21H3v-6M10 14l-6 6"/></svg> View certificate
+            </a>
+          </div>
+        </div>
+
+        <!-- CERT 2: LCCI -->
+        <div class="cert-card">
+          <div>
+            <div style="height: 140px; background: #ffffff; border-radius: 10px; padding: 12px; margin-bottom: 20px; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+              <img src="images/cert-lcci.jpg" alt="FCCI Certificate" style="max-height: 100%; max-width: 100%; object-fit: contain;">
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+              <h3 style="font-size: 1.3rem; margin: 0; color: #1E3A8A; font-family: Fraunces, serif; font-weight: 700;">FCCI</h3>
+            </div>
+            <p style="font-size: 0.92rem; color: #64748B; margin-bottom: 20px; line-height: 1.45;">
+              Corporate Member, The Lahore Chamber of Commerce &amp; Industry
+            </p>
+
+            <div style="border-top: 1px solid #E2E8F0; padding-top: 16px; font-size: 0.86rem; color: #475569;">
+              <div style="font-weight: 700; color: #1E3A8A; margin-bottom: 4px;">Registration / certificate no.</div>
+              <div style="color: #334155; margin-bottom: 2px;">Membership No. 94721 C</div>
+              <div style="color: #64748B; margin-bottom: 2px;">Member since 04/06/2018 &middot; valid until 31 Mar 2027</div>
+              <div style="color: #64748B;">Issued by The Lahore Chamber of Commerce &amp; Industry</div>
+            </div>
+          </div>
+
+          <div style="margin-top: 24px;">
+            <a href="images/cert-lcci.jpg" target="_blank" style="color: #1E3A8A; font-weight: 700; text-decoration: none; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 6px;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6-6M9 21H3v-6M10 14l-6 6"/></svg> View certificate
+            </a>
+          </div>
+        </div>
+
+        <!-- CERT 3: HIPAA -->
+        <div class="cert-card">
+          <div>
+            <div style="height: 140px; background: #ffffff; border-radius: 10px; padding: 12px; margin-bottom: 20px; border: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+              <img src="images/cert-hipaa.jpg" alt="HIPAA Certificate" style="max-height: 100%; max-width: 100%; object-fit: contain;">
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0284C7" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+              <h3 style="font-size: 1.3rem; margin: 0; color: #1E3A8A; font-family: Fraunces, serif; font-weight: 700;">HIPAA</h3>
+            </div>
+            <p style="font-size: 0.92rem; color: #64748B; margin-bottom: 20px; line-height: 1.45;">
+              HIPAA Compliance Training Program completed
+            </p>
+
+            <div style="border-top: 1px solid #E2E8F0; padding-top: 16px; font-size: 0.86rem; color: #475569;">
+              <div style="font-weight: 700; color: #1E3A8A; margin-bottom: 4px;">Registration / certificate no.</div>
+              <div style="color: #334155; margin-bottom: 2px;">HIPAA-0126590</div>
+              <div style="color: #64748B; margin-bottom: 2px;">Valid Sep 2026 &ndash; Sep 2027</div>
+              <div style="color: #64748B;">Issued by HIPAATraining.us</div>
+            </div>
+          </div>
+
+          <div style="margin-top: 24px;">
+            <a href="images/cert-hipaa.jpg" target="_blank" style="color: #1E3A8A; font-weight: 700; text-decoration: none; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 6px;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M14 10l6-6M9 21H3v-6M10 14l-6 6"/></svg> View certificate
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 7: THE PEOPLE BEHIND THE WORK (From New Screenshot 3) -->
+  <section style="padding: 64px 0; background: #ffffff; border-top: 1px solid #E2E8F0;">
+    <div class="wrap">
+      <h2 style="color: #1E3A8A; font-family: Fraunces, serif; font-size: clamp(2rem, 3.5vw, 2.5rem); margin-bottom: 24px;">The people behind the work</h2>
+      <div style="display: flex; gap: 16px; align-items: center;">
+        <a href="about.html" style="background: #ffffff; color: #1E3A8A; border: 1.5px solid #0284C7; font-weight: 700; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-size: 0.95rem;">
+          Meet the team
+        </a>
+        <a href="careers.html" style="color: #1E3A8A; font-weight: 600; padding: 12px 20px; text-decoration: none; font-size: 0.95rem;">
+          Work with us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 8: LET'S TALK CTA BANNER (From New Screenshot 4 & 5) -->
+  <section style="padding: 80px 0; background: #1E3A8A; color: #ffffff;">
+    <div class="wrap" style="max-width: 960px;">
+      <h2 style="color: #ffffff; font-family: Fraunces, serif; font-size: clamp(2.2rem, 4vw, 3.2rem); margin-bottom: 16px; font-weight: 700; line-height: 1.2;">
+        Let's talk about your transcription, billing or coding work
+      </h2>
+      <p style="font-size: 1.2rem; color: rgba(255,255,255,0.88); margin-bottom: 36px;">
+        Try us with a free trial before you outsource.
+      </p>
+      <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: center;">
+        <a href="contact.html" style="background: #38BDF8; color: #0F172A; font-weight: 700; padding: 14px 32px; border-radius: 10px; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; font-size: 1.05rem; transition: background 0.2s;">
+          Request a Free Quote &rarr;
+        </a>
+        <a href="careers.html" style="color: #ffffff; font-weight: 700; text-decoration: none; padding: 14px 28px; font-size: 1.05rem;">
+          Apply Now
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer style="background: #12213A; color: #ffffff; padding: 60px 0 32px; font-size: 0.95rem;">
+  <div class="wrap">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 24px; margin-bottom: 32px; padding-bottom: 32px; border-bottom: 1px solid rgba(255,255,255,0.12);">
+      <div style="background: #ffffff; padding: 8px 16px; border-radius: 8px;">
+        <img src="images/capital-links-logo.png" alt="Capital Links - Medical Billing &amp; Transcription" style="height: 48px; width: auto; display: block;">
+      </div>
+            <div class="footer-social-links" style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+        <a href="#" aria-label="Facebook" class="footer-soc-link footer-soc-fb" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.12); color: #ffffff; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.52-.14-2.71-.14-2.72 0-4.79 1.66-4.79 4.9v2.6H7v4h3V22h4v-8.5z"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram" class="footer-soc-link footer-soc-ig" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.12); color: #ffffff; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+        <a href="#" aria-label="YouTube" class="footer-soc-link footer-soc-yt" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.12); color: #ffffff; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a href="#" aria-label="LinkedIn" class="footer-soc-link footer-soc-in" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.12); color: #ffffff; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 28px; font-size: 0.95rem;">
+      <a href="about.html" style="color: rgba(255,255,255,0.85); text-decoration: none;">About Us</a>
+      <span style="color: rgba(255,255,255,0.3);">|</span>
+      <a href="education.html" style="color: rgba(255,255,255,0.85); text-decoration: none;">Education</a>
+      <span style="color: rgba(255,255,255,0.3);">|</span>
+      <a href="index.html#services" style="color: rgba(255,255,255,0.85); text-decoration: none;">Services</a>
+      <span style="color: rgba(255,255,255,0.3);">|</span>
+      <a href="updates.html" style="color: rgba(255,255,255,0.85); text-decoration: none;">Updates</a>
+      <span style="color: rgba(255,255,255,0.3);">|</span>
+      <a href="terms.html" style="color: rgba(255,255,255,0.85); text-decoration: none;">Terms and Policies</a>
+      <span style="color: rgba(255,255,255,0.3);">|</span>
+      <a href="privacy.html" style="color: rgba(255,255,255,0.85); text-decoration: none;">Privacy Policy</a>
+      <span style="color: rgba(255,255,255,0.3);">|</span>
+      <a href="careers.html" style="color: rgba(255,255,255,0.85); text-decoration: none;">Careers</a>
+      <span style="color: rgba(255,255,255,0.3);">|</span>
+      <a href="contact.html" style="color: rgba(255,255,255,0.85); text-decoration: none;">Contact Us</a>
+    </div>
+    <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 24px; margin-bottom: 28px; font-size: 0.92rem; color: rgba(255,255,255,0.75);">
+      <div>
+        <p style="margin: 0 0 6px;color: white !important;"><a href="tel:+923158053198" style="color:white; text-decoration: none;">+92 315 8053198</a> <span >|</span> WhatsApp:<a href="https://wa.me/923158053198" style="color: white; text-decoration: none;">+92 315 8053198</a> <span style="margin:0 10px; opacity:.3;">|</span> <a href="mailto:capitallinkspakistan@gmail.com" style="color: white; text-decoration: none;">capitallinkspakistan@gmail.com</a></p>
+        <p style="margin: 0; color: white;">Civic Center Canal Express Way Faisalabad</p>
+      </div>
+    </div>
+    <div style="font-size: 0.82rem; color: rgba(255,255,255,0.5); border-top: 1px solid rgba(255,255,255,0.08); padding-top: 20px;">
+      &copy; 2026 Capital Links Medical Billing &amp; Transcription. All rights reserved. &middot; Designed &amp; developed by SylJo Tech
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/923158053198" target="_blank" rel="noopener" class="floating-help-btn" aria-label="Help &amp; Contact">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+</a>
+
+<script>
+const mt=document.getElementById('mt'),lk=document.getElementById('lk');
+if(mt&&lk){mt.addEventListener('click',()=>lk.classList.toggle('open'));}
+document.querySelectorAll('.ddb').forEach(b=>{
+  b.addEventListener('click',e=>{
+    if(window.innerWidth<=820){
+      const dd=b.parentElement;
+      dd.classList.toggle('open');
+    }
+  });
+});
+</script>
+</body>
+</html>
